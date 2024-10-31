@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+}
+
+#header {
+  background-color: rgb(246, 200, 143);
+  padding: 10px;
+}
+
+#header h1 {
+  text-align: center;
+  color: blue;
+}
+
+blockquote {
+  border-top: 1px dotted black;
+  border-left: 1px dotted black;
+  width: 90%;
+  margin: auto;
+  background-color: gold;
+  text-align: center;
+}
+
+#menu ul {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+#menu ul li {
+  list-style-type: none;
+}
+
+.gambar {
+  text-align: center;
+}
+
+.gambar img:nth-child(2) {
+  height: 300px;
+  text-align: end;
+}
+
+.isi .burung::first-letter {
+  font-size: 4em;
+  color: blue;
+}
+
+.koleksi {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 50px 0;
+}
+.koleksi img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 5px 5px black;
+}
+
+.promo {
+  text-align: center;
+}
+
+.promo ol {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.promo ol li {
+  list-style-type: none;
+}
+
+.promo ol li a {
+  text-decoration: none;
+}
+
+.promo h3 strong {
+  color: rgb(0, 255, 26);
+}
+
+.promo h3 del {
+  color: red;
+}
